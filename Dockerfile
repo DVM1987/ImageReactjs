@@ -1,6 +1,5 @@
 FROM node:14-alpine
-COPY package.json /
-COPY app.js /
+COPY . .
 RUN npm install
 EXPOSE 5173
 RUN npm run build
