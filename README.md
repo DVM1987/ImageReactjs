@@ -39,4 +39,8 @@ Overall, the flow of the application should look something like this:
 - When the "re-fetch" button is clicked, the Tours component re-fetches the tours data from the URL and updates its state.
 
 #### Docker command
-1. docker build 
+
+1. docker build
+2. docker run -it -d --name tour image-react-tour ( create container from image)
+   3.docker ps -a
+3. docker tag e94b33725d62 vietnambkk24/react-tours:latest
